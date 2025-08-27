@@ -1,0 +1,73 @@
+{
+  "accounts": {
+    "account{0}": "0xFd08207F18F544d6F98138A6edF5E8E8e80555DD"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1754281422621,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xf9dde1b16326bfb23d98fa87a5f51831642b80f5b9f7e330aff317d2d5689bcf",
+        "contractName": "calldemo",
+        "bytecode": "608060405234801561001057600080fd5b506107e460008190555060e4806100286000396000f3fe6080604052348015600f57600080fd5b5060043610604f576000357c010000000000000000000000000000000000000000000000000000000090048063a87d942c146054578063d14e62b8146070575b600080fd5b605a609b565b6040518082815260200191505060405180910390f35b609960048036036020811015608457600080fd5b810190808035906020019092919050505060a4565b005b60008054905090565b806000819055505056fea2646970667358221220688ebba5164b4b093559cf279d15f62c970d72455990afa851fb94738854f4ae64736f6c63430006010033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1754281529932,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xf9dde1b16326bfb23d98fa87a5f51831642b80f5b9f7e330aff317d2d5689bcf",
+        "contractName": "calldemo",
+        "bytecode": "608060405234801561001057600080fd5b506107e460008190555060e4806100286000396000f3fe6080604052348015600f57600080fd5b5060043610604f576000357c010000000000000000000000000000000000000000000000000000000090048063a87d942c146054578063d14e62b8146070575b600080fd5b605a609b565b6040518082815260200191505060405180910390f35b609960048036036020811015608457600080fd5b810190808035906020019092919050505060a4565b005b60008054905090565b806000819055505056fea2646970667358221220688ebba5164b4b093559cf279d15f62c970d72455990afa851fb94738854f4ae64736f6c63430006010033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xf9dde1b16326bfb23d98fa87a5f51831642b80f5b9f7e330aff317d2d5689bcf": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_count",
+            "type": "uint256"
+          }
+        ],
+        "name": "setCount",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "getCount",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
