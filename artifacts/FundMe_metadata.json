@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -99,6 +99,37 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "_erc20Addr",
+						"type": "address"
+					}
+				],
+				"name": "setErc20Addr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "funder",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountToUpdate",
+						"type": "uint256"
+					}
+				],
+				"name": "setFunderToAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "newOwner",
 						"type": "address"
 					}
@@ -124,7 +155,7 @@
 		"compilationTarget": {
 			"Chainlink_test/FundMe.sol": "FundMe"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -145,11 +176,11 @@
 			]
 		},
 		"Chainlink_test/FundMe.sol": {
-			"keccak256": "0x4da4786f21d3e0149cfd6d99a669347d10efb6e353926371a50a6e6a1831405e",
+			"keccak256": "0x9bf77dbfa0178dd8327126529197362deb10dd9105765c4316c110e397cfe266",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c48235b543b04a9897f743d97c6c7d9f99011ae2081ef0adea8573d7e3cc4b4",
-				"dweb:/ipfs/Qmdgu7KrBzZooGuVcKsLY8KBi8RcopmELuoxQzMJT981wn"
+				"bzz-raw://041192932337fa636677729b528c4a11462052ada9057fc71af71bb3f7a7ce8f",
+				"dweb:/ipfs/QmQMjcowSop6ftgZA9ZanUDAsiDvKx8BtCDBWAZhmgM6Vt"
 			]
 		}
 	},
