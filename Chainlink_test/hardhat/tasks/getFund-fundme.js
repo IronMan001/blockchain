@@ -23,7 +23,7 @@ task("getFund-fundme", "提取 FundMe 合约的余额")
         //call getFund function from contract with account1
         const getFundTx = await fundMe.connect(account1).getFund();
         await getFundTx.wait(1);
-        console.log("account1 getFund "+fundersToAmount+" eth");
+        console.log("account1 getFund "+ethers.formatEther(fundersToAmount)+" eth");
         //check balance of the contract
         const contractBalance2 = await ethers.provider.getBalance(fundMe.target);
         console.log("contract balance:", ethers.formatEther(contractBalance2));
